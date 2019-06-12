@@ -8,4 +8,11 @@ Graylog, MongoDB and ElasticSearch
 Motivation
 ----------
 
-This a education project. Not intended to be run in production.
+This is an educational project. Not intended to be run in production.
+
+Usage
+-----
+
+```
+bash <( curl -sSL https://raw.githubusercontent.com/pockost/graylog-docker-installer/master/installer.sh )
+```

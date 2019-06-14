@@ -237,11 +237,11 @@ services:
       # Graylog web interface and REST API
       - 9000:9000
       # Syslog TCP
-      - 513:514
+      - 514:514
       # Syslog UDP
-      - 513:514/udp
+      - 514:514/udp
       # GELF TCP
-      - 12200:12201
+      - 12201:12201
       # GELF UDP
       - 12201:12201/udp
   maxmind-updater:
